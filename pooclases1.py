@@ -23,3 +23,6 @@ class perro:
 #Creando un objeto de la clase perro
 mi_perro = perro("Luna", " callejero")
 print(type(mi_perro))
+#Accediendo a atributos concretos 
+print(mi_perro.nombre)
+print(mi_perro.raza)
